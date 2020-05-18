@@ -9,6 +9,8 @@ import { Portfolio } from './contents/Portfolio';
 import { Resume } from './contents/Resume';
 import { Footer } from './components/Footer';
 
+import { RiskModeller } from './contents/Portfolio/RiskModeller';
+
 
 export class App extends React.Component {
     render() {
@@ -19,6 +21,7 @@ export class App extends React.Component {
               <Route path="/" component={Home} exact />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/resume" component={Resume} />
+              <Route path="/portfolio-risk-modeller" component={RiskModeller} />
             </Switch>
             <Footer />
           </div>
