@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Jumbotron } from '../components/Jumbotron';
 import { About } from '../components/About';
-import { PortfolioSmall } from '../components/PortfolioSmall';
+import { PortfolioSmallContainer } from '../components/PortfolioSmallContainer';
 import { Skills } from '../components/Skills';
 
 export class Home extends React.Component {
@@ -12,7 +12,7 @@ export class Home extends React.Component {
             <Jumbotron />
             <div class="container">
               <About />
-              <PortfolioSmall />
+              <PortfolioSmallContainer />
               <Skills />
             </div>
           </div>

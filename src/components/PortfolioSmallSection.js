@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-export class PortfolioSectionSmall extends React.Component {
+export class PortfolioSmallSection extends React.Component {
   render() {
     let props = this.props;
 
