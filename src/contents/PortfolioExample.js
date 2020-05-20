@@ -8,8 +8,24 @@ export function PortfolioExample() {
 
   return(
     <div>
-      <h1>{item.name}</h1>
-      <p>{item.summary}</p>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>{item.title}</h1>
+        </div>
+      </div>
+
+    <div class="container">
+      <div id="example">
+        <section class="align-items-center">
+          <h4>{item.abstract}</h4>
+          <p>{item.description}</p>
+
+          <a href={item.appLink}><img src={'../' + item.srcLarge} alt={item.altText}/></a>
+        </section>
+      </div>
+    </div>
+
     </div>
   );
 };
