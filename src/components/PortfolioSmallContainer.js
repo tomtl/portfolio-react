@@ -6,7 +6,7 @@ import { PortfolioSmall } from './PortfolioSmall';
 const portfolioItemsArray = portfolioItems.map((item) => (
   <PortfolioSmallSection
     src={item.src}
-    link={item.link}
+    link={"/portfolio/" + item.id}
     altText={item.altText}
     title={item.title}
     summary={item.summary}
