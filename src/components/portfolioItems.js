@@ -3,7 +3,7 @@ export const portfolioItems = [
     id: 0,
     name: "Risk Modeller",
     title: "MapBox GL and Turf.JS Geospatial Analysis App",
-    abstract: "Nitrate Cancer Risk geospatial analysis web app",
+    abstract: "Nitrate Cancer Risk Geospatial Analysis Web App",
     src: "images/risk-modeller-sm.png",
     srcLarge: "images/risk-modeller-sm.png",
     link: "/risk-modeller",
@@ -33,7 +33,7 @@ export const portfolioItems = [
     src: "images/us-aviation.png",
     srcLarge: "images/us-aviation.png",
     link: "/aviation",
-    appLink: "images/us-aviation.pdf",
+    appLink: "/images/us-aviation.pdf",
     altText: "Apache Spark geospatial analysis",
     summary: "Geospatial analysis of U.S. domestic aviation market.",
     description: "Geospatial analysis of U.S. domestic aviation market using Apache Spark and Geospark package. This study uses Apache Spark and flight summary data from the U.S. Department of Transportation to investigate market conditions in the U.S. domestic passenger aviation industry. Database design and implementation steps are discussed and detailed for Apache Spark with the Geospark package, using Scala and the data frames API. The database includes geospatial geometry fields and results are shown on maps created with QGIS."
@@ -41,8 +41,8 @@ export const portfolioItems = [
   {
     id: 3,
     name: "US Power Generation",
-    title: "Leaflet interactive web map",
-    abstract: "State power generation by year and power source",
+    title: "Leaflet Interactive Web Map",
+    abstract: "State Power Generation by Year and Power Source",
     src: "images/leaflet-power.png",
     srcLarge: "images/leaflet-power.png",
     link: "/power",
@@ -54,55 +54,79 @@ export const portfolioItems = [
   {
     id: 4,
     name: "Critters Tracker",
+    title: "ArcGIS JavaScript API Web App",
+    abstract: "Wildlife Tracker Web Mapping Application",
     src: "images/critters-tracker-large.png",
+    srcLarge: "images/critters-tracker-large.png",
     link: "/critters-tracker",
+    appLink: "https://tomtl.github.io/critters-tracker",
     altText: "Critters tracker app",
-    title: "ArcGIS JavaScript API web map app",
-    summary: "Wildlife tracker web mapping application."
+    summary: "Wildlife tracker web mapping application.",
+    description: "Wildlife tracking web mapping application built using the ArcGIS API for JavaScript. Users can create, edit and filter sighting reports. Custom functionality was used for the report creation and editing panel creating a better, more focused user experience than the default editing widget."
   },
   {
     id: 5,
     name: "NY Housing",
+    title: "D3 Coordinated Visualization",
+    abstract: "New York City Housing Costs",
     src: "images/d3.png",
+    srcLarge: "images/d3.png",
     link: "/d3",
+    appLink: "https://tomtl.github.io/geog575-d3-coordinated-viz/",
     altText: "D3 coordinated visualization",
-    title: "D3 coordinated visualization",
-    summary: "New York City housing costs."
+    summary: "New York City housing costs.",
+    description: "This visualization shows rental and ownership costs in New York City. It was created with D3.js and uses 2017 US Census Bureau American Community Survey data for 2000 census tracts. Users can hover over a tract on the map and see the corresponding bars on the histogram and vice versa."
   },
   {
     id: 6,
     name: "Northern Himalayas",
-    src: "images/terrain_sm.png",
-    link: "/terrain",
-    altText: "Terrain map",
     title: "ITC - Northern Himalayas",
-    summary: "Terrain map showing cycling race route."
+    abstract: "ITC - Northern Himalayas",
+    src: "images/terrain_sm.png",
+    srcLarge: "images/terrain_lg.png",
+    link: "/terrain",
+    appLink: "/images/terrain_lg.png",
+    altText: "Terrain map",
+    summary: "Terrain map showing cycling race route.",
+    description: "A terrain map showing a fictional cycling race route across the Northern Himalayas. The map uses an NDVI image to show the variation between deserts, low forests and high mountain tundra. It also includes hillshading to show the dramatic terrain and calls out some of the world's highest mountains. The map was created using ArcGIS and Adobe Photoshop."
   },
   {
     id: 7,
     name: "MapBox tile set",
-    src: "images/mapbox.png",
-    link: "/mapbox",
-    altText: "Mapbox tileset",
     title: "Custom Web Map Tileset",
-    summary: "Mapbox vector webmap tileset based on a film."
+    abstract: "Blade Runner [1982]",
+    src: "images/mapbox.png",
+    srcLarge: "images/mapbox.png",
+    link: "/mapbox",
+    appLink: "https://api.mapbox.com/styles/v1/ttlee4/cjpa7frby0yvp2rmocv09ep04.html?fresh=true&title=true&access_token=pk.eyJ1IjoidHRsZWU0IiwiYSI6ImNqcGE3ZmNtNzAwdjczb3A2MDZsdWw3bmcifQ.hEek0TNq-aFY-OwIlpXUyQ#3.1/39.663465/-98.918647/0",
+    altText: "Mapbox tileset",
+    summary: "Mapbox vector webmap tileset based on a film.",
+    description: "Mapbox vector webmap tileset based on the 1982 Blade Runner film. Custom layers and styling was used to recreate the theme of the film."
   },
   {
     id: 8,
     name: "Infographic",
-    src: "images/infographic.png",
-    link: "/infographic",
-    altText: "Infographic",
     title: "Education gap vs GDP",
-    summary: "Infographic of international education and gender vs GDP."
+    abstract: "Education gap vs GDP infographic",
+    src: "images/infographic.png",
+    srcLarge: "images/infographic.png",
+    link: "/infographic",
+    appLink: "/images/infographic.png",
+    altText: "Infographic",
+    summary: "Infographic of international education and gender vs GDP.",
+    description: "This infographic shows the realtionship between education, gender and GDP for each country. It presents data from the UN education and gender equality programs in graphs, charts and maps to help the reader explore the data. The focus of the infographic is a multivariate choropleth map that symbolizes two variables, GDP and gender gap per country, so that the reader can easily compare the two on the map together. The infograpic was created using Adobe Illustrator and QGIS."
   },
   {
     id: 9,
     name: "Pop Density",
-    src: "images/pop_density.png",
-    link: "/popdensity",
-    altText: "Pop density",
     title: "U.S. Population density",
-    summary: "Quick map showing census block group population density for the USA."
+    abstract: "U.S. Population Density Map",
+    src: "images/pop_density.png",
+    srcLarge: "images/pop_density.png",
+    link: "/popdensity",
+    appLink: "/images/pop_density.png",
+    altText: "Pop density",
+    summary: "Quick map showing census block group population density for the USA.",
+    description: "Quick map showing census block group population density for the USA. Data was sourced from the Census Bureau's 2017 American Community Survey that includes many demographic measures down to the census block group level."
   },
 ];
