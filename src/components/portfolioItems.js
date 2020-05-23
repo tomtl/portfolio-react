@@ -80,7 +80,7 @@ export const portfolioItems = [
   {
     id: 6,
     name: "Northern Himalayas",
-    title: "ITC - Northern Himalayas",
+    title: "ITC - Northern Himalayas Terrain Map",
     abstract: "ITC - Northern Himalayas",
     src: "images/terrain_sm.png",
     srcLarge: "images/terrain_lg.png",
@@ -106,7 +106,7 @@ export const portfolioItems = [
   {
     id: 8,
     name: "Infographic",
-    title: "Education gap vs GDP",
+    title: "Education gap vs GDP Infographic",
     abstract: "Education gap vs GDP infographic",
     src: "images/infographic.png",
     srcLarge: "images/infographic.png",
@@ -118,8 +118,8 @@ export const portfolioItems = [
   },
   {
     id: 9,
-    name: "Pop Density",
-    title: "U.S. Population density",
+    name: "Pop Density map",
+    title: "U.S. Population Density Map",
     abstract: "U.S. Population Density Map",
     src: "images/pop_density.png",
     srcLarge: "images/pop_density.png",

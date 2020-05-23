@@ -1,9 +1,14 @@
 import React from 'react';
 
+import { Jumbotron } from '../components/Jumbotron';
+import { PortfolioLargeContainer } from '../components/PortfolioLargeContainer';
+
 export class Portfolio extends React.Component {
-  render() {
-    return (
-      <h1>Hi! I'm the portfolio.</h1>
-    )
-  }
+    render() {
+        return (
+          <div className="App">
+            <PortfolioLargeContainer />
+          </div>
+        );
+    }
 };

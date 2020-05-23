@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 export class PortfolioSmall extends React.Component {
   render() {
@@ -12,7 +14,7 @@ export class PortfolioSmall extends React.Component {
           {items}
 
         </div>
-        <a class="btn btn-outline-secondary" href="portfolio.html" role="button">Full porfolio</a>
+        <a class="btn btn-outline-secondary" href="/portfolio" role="button">Full porfolio</a>
       </div>
     );
   }

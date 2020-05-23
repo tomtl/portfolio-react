@@ -20,6 +20,7 @@ export function PortfolioExample() {
         <section class="align-items-center">
           <h4>{item.abstract}</h4>
           <p>{item.description}</p>
+          <p>Access the full {item.title} <a href={item.appLink}>here</a>.</p>
           <br/>
           <a href={item.appLink}><img src={'../' + item.srcLarge} alt={item.altText}/></a>
         </section>
