@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-
 
 export class PortfolioSmall extends React.Component {
   render() {
