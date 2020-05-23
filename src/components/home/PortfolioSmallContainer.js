@@ -1,7 +1,7 @@
 import React from 'react';
 import { PortfolioSmallSection } from './PortfolioSmallSection';
-import { portfolioItems } from './portfolioItems';
 import { PortfolioSmall } from './PortfolioSmall';
+import { portfolioItems } from '../portfolioItems';
 
 const portfolioItemsArray = portfolioItems.map((item) => (
   <PortfolioSmallSection

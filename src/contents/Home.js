@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Jumbotron } from '../components/Jumbotron';
-import { About } from '../components/About';
-import { PortfolioSmallContainer } from '../components/PortfolioSmallContainer';
+import { Jumbotron } from '../components/home/Jumbotron';
+import { About } from '../components/home/About';
+import { PortfolioSmallContainer } from '../components/home/PortfolioSmallContainer';
 import { Skills } from '../components/resume/Skills';
 import { Education} from '../components/resume/Education';
 import { ExperienceSummary } from '../components/resume/ExperienceSummary';

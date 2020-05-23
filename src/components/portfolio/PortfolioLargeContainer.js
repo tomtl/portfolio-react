@@ -1,7 +1,7 @@
 import React from 'react';
 import { PortfolioLargeSection } from './PortfolioLargeSection';
-import { portfolioItems } from './portfolioItems';
 import { PortfolioLarge } from './PortfolioLarge';
+import { portfolioItems } from '../portfolioItems';
 
 const portfolioItemsArray = portfolioItems.map((item) => (
   <PortfolioLargeSection
